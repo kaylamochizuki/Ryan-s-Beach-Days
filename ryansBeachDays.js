@@ -46,7 +46,6 @@ function gohUpdate() {
   update();
 }
 
-//PARENT FUNCTION
 function buy() {
   update();
   onEvent("st_price2", "click", function( ) {
@@ -103,7 +102,6 @@ function buy() {
   update();
 }
 
-//CHILD FUNCTION 1
 function update() {
   onEvent("win_nxt_btn", "click", function( ) {
     if (totalwins == 1) {
@@ -138,8 +136,6 @@ function update() {
   
 }
 
-//CHILD FUNCTION 2
-//ABSTRACTION
 function error() {
   onEvent("st_price2", "click", function( ) {
     if (totalcoins >= 100) {
